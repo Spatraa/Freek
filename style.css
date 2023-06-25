@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+#left-panel {
+    width: 200px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.component {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.component:hover {
+    font-weight: bold;
+}
